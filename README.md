@@ -7,3 +7,12 @@ entre les requetes reseau.
 
 <h3> Page de chargement </h3>
 <img src="App-Result-Images/launchscreen.PNG" width="200" height="400">
+
+
+<h3> En cas de requette reussie dans erreur </h3>
+<img src="App-Result-Images/success2.PNG" width="200" height="400">
+
+
+<h3> En cas d'erreur </h3>
+<img src="App-Result-Images/errorrequest.PNG" width="200" height="400">
+
