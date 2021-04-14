@@ -15,6 +15,9 @@
 		4F06495626267BF1007501DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F06495426267BF1007501DB /* LaunchScreen.storyboard */; };
 		4F06496126267BF1007501DB /* Random_Quotes_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F06496026267BF1007501DB /* Random_Quotes_IOSTests.swift */; };
 		4F06496C26267BF1007501DB /* Random_Quotes_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F06496B26267BF1007501DB /* Random_Quotes_IOSUITests.swift */; };
+		4F0649812626811C007501DB /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0649802626811C007501DB /* QuoteService.swift */; };
+		4F0649822626811C007501DB /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0649802626811C007501DB /* QuoteService.swift */; };
+		4F0649832626811C007501DB /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0649802626811C007501DB /* QuoteService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		4F06496726267BF1007501DB /* Random-Quotes-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Random-Quotes-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F06496B26267BF1007501DB /* Random_Quotes_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random_Quotes_IOSUITests.swift; sourceTree = "<group>"; };
 		4F06496D26267BF1007501DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F0649802626811C007501DB /* QuoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +105,10 @@
 			children = (
 				4F06494926267BEC007501DB /* AppDelegate.swift */,
 				4F06494B26267BEC007501DB /* SceneDelegate.swift */,
-				4F06494D26267BEC007501DB /* ViewController.swift */,
-				4F06494F26267BEC007501DB /* Main.storyboard */,
 				4F06495226267BF1007501DB /* Assets.xcassets */,
-				4F06495426267BF1007501DB /* LaunchScreen.storyboard */,
+				4F06497E26267F02007501DB /* View */,
+				4F06497F26267F0B007501DB /* Controller */,
+				4F06497D26267EF7007501DB /* Model */,
 				4F06495726267BF1007501DB /* Info.plist */,
 			);
 			path = "Random-Quotes-IOS";
@@ -126,6 +130,31 @@
 				4F06496D26267BF1007501DB /* Info.plist */,
 			);
 			path = "Random-Quotes-IOSUITests";
+			sourceTree = "<group>";
+		};
+		4F06497D26267EF7007501DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F0649802626811C007501DB /* QuoteService.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4F06497E26267F02007501DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F06494F26267BEC007501DB /* Main.storyboard */,
+				4F06495426267BF1007501DB /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4F06497F26267F0B007501DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4F06494D26267BEC007501DB /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0649812626811C007501DB /* QuoteService.swift in Sources */,
 				4F06494E26267BEC007501DB /* ViewController.swift in Sources */,
 				4F06494A26267BEC007501DB /* AppDelegate.swift in Sources */,
 				4F06494C26267BEC007501DB /* SceneDelegate.swift in Sources */,
@@ -269,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0649822626811C007501DB /* QuoteService.swift in Sources */,
 				4F06496126267BF1007501DB /* Random_Quotes_IOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0649832626811C007501DB /* QuoteService.swift in Sources */,
 				4F06496C26267BF1007501DB /* Random_Quotes_IOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
