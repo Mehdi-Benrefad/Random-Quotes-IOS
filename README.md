@@ -6,4 +6,4 @@ les afficher aux utilisateurs et leurs donner le droit de charcher un seul citat
 entre les requetes reseau.
 
 <h3> Page de chargement </h3>
-<img src="launchscreen.PNG" width="200" height="400">
+<img src="App-Result-Images/launchscreen.PNG" width="200" height="400">
