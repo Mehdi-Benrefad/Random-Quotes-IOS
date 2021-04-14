@@ -97,8 +97,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="ActivityIndicator" destination="8N3-7f-he2" id="Fvc-oB-iWh"/>
                         <outlet property="authorLabel" destination="mE0-Iq-FPh" id="EB1-Ap-Y6o"/>
                         <outlet property="imageView" destination="FuO-BE-eqm" id="6q8-Iz-fCf"/>
+                        <outlet property="newQuoteButtonOutlet" destination="6Q6-nD-w7P" id="LCI-rn-eBo"/>
                         <outlet property="quoteLabel" destination="Vre-aB-ohc" id="gYK-oz-m5E"/>
                     </connections>
                 </viewController>
