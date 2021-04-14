@@ -21,6 +21,9 @@
 		4F064985262684AB007501DB /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F064984262684AB007501DB /* Quote.swift */; };
 		4F064986262684AC007501DB /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F064984262684AB007501DB /* Quote.swift */; };
 		4F064987262684AC007501DB /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F064984262684AB007501DB /* Quote.swift */; };
+		4F06498926268F23007501DB /* Balham.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4F06498826268F23007501DB /* Balham.otf */; };
+		4F06498A26268F23007501DB /* Balham.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4F06498826268F23007501DB /* Balham.otf */; };
+		4F06498B26268F23007501DB /* Balham.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4F06498826268F23007501DB /* Balham.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,7 @@
 		4F06496D26267BF1007501DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F0649802626811C007501DB /* QuoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteService.swift; sourceTree = "<group>"; };
 		4F064984262684AB007501DB /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		4F06498826268F23007501DB /* Balham.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Balham.otf; path = ../../../Balham.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		4F06494826267BEC007501DB /* Random-Quotes-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				4F06498826268F23007501DB /* Balham.otf */,
 				4F06494926267BEC007501DB /* AppDelegate.swift */,
 				4F06494B26267BEC007501DB /* SceneDelegate.swift */,
 				4F06495226267BF1007501DB /* Assets.xcassets */,
@@ -268,6 +273,7 @@
 			files = (
 				4F06495626267BF1007501DB /* LaunchScreen.storyboard in Resources */,
 				4F06495326267BF1007501DB /* Assets.xcassets in Resources */,
+				4F06498926268F23007501DB /* Balham.otf in Resources */,
 				4F06495126267BEC007501DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F06498A26268F23007501DB /* Balham.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F06498B26268F23007501DB /* Balham.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
