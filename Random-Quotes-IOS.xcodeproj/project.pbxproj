@@ -18,6 +18,9 @@
 		4F0649812626811C007501DB /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0649802626811C007501DB /* QuoteService.swift */; };
 		4F0649822626811C007501DB /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0649802626811C007501DB /* QuoteService.swift */; };
 		4F0649832626811C007501DB /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0649802626811C007501DB /* QuoteService.swift */; };
+		4F064985262684AB007501DB /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F064984262684AB007501DB /* Quote.swift */; };
+		4F064986262684AC007501DB /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F064984262684AB007501DB /* Quote.swift */; };
+		4F064987262684AC007501DB /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F064984262684AB007501DB /* Quote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,7 @@
 		4F06496B26267BF1007501DB /* Random_Quotes_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random_Quotes_IOSUITests.swift; sourceTree = "<group>"; };
 		4F06496D26267BF1007501DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F0649802626811C007501DB /* QuoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteService.swift; sourceTree = "<group>"; };
+		4F064984262684AB007501DB /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				4F0649802626811C007501DB /* QuoteService.swift */,
+				4F064984262684AB007501DB /* Quote.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -291,6 +296,7 @@
 				4F0649812626811C007501DB /* QuoteService.swift in Sources */,
 				4F06494E26267BEC007501DB /* ViewController.swift in Sources */,
 				4F06494A26267BEC007501DB /* AppDelegate.swift in Sources */,
+				4F064985262684AB007501DB /* Quote.swift in Sources */,
 				4F06494C26267BEC007501DB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F0649822626811C007501DB /* QuoteService.swift in Sources */,
+				4F064986262684AC007501DB /* Quote.swift in Sources */,
 				4F06496126267BF1007501DB /* Random_Quotes_IOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F0649832626811C007501DB /* QuoteService.swift in Sources */,
+				4F064987262684AC007501DB /* Quote.swift in Sources */,
 				4F06496C26267BF1007501DB /* Random_Quotes_IOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
